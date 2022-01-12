@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 580px;
+    gap: 20px;
+}
+
+#perfil {
+    display: block;
+}
+
+#nome {
+    display: block;
+    text-align: right;
+}
+
+header img {
+    border-radius: 75px;
+}
+
+main {
+}
+
+div {
+    display: block;
+    background-color: lightgray;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 580px;
+    gap: 20px;
+}
