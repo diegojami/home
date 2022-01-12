@@ -14,21 +14,12 @@ header {
     gap: 20px;
 }
 
-#perfil {
-    display: block;
-    text-align: center;
-}
-
-#nome {
-    display: block;
-    text-align: right;
-}
-
 header img {
     border-radius: 75px;
 }
 
 main {
+
 }
 
 div {
@@ -40,8 +31,78 @@ section {
     margin-top: 20px;
 }
 
+/* class e id */
+
+#perfil {
+    display: block;
+    text-align: center;
+}
+
+#nome {
+    display: block;
+    text-align: right;
+}
+
+.content {
+    padding: 5px 10px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 200px 580px;
     gap: 20px;
+}
+
+.redes {
+    padding: 10px;
+}
+
+/* estilos dos textos gerais */
+
+h1 {
+    max-width: 400px;
+    margin: 10px 15px 10px auto;
+    font-size: 64px;
+}
+
+header p {
+    max-width: 340px;
+    margin: 10px 15px 10px auto;
+    font-size: 14px;
+    text-align: right;
+}
+
+h2 {
+    margin: 5px auto 5px 25px;
+}
+
+p {
+    margin: 10px 10px 10px 25px;
+    text-align: justify;
+}
+
+ul {
+    padding: 0px;
+    margin: 15px 0px 15px 15px;
+}
+li {
+    margin: 10px;
+    padding: 0px;
+    text-align: justify;
+}
+
+div > a {
+    text-decoration: none;
+    color: black;
+    vertical-align: auto;
+}
+
+div > a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    max-width: 600px;
+    margin: 5px;
+    border-color: rgba(0, 0, 0, 0.411);
 }
