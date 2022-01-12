@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     width: 800px;
     margin: auto;
+    background-color: lightgrey;
 }
 
 header {
@@ -20,7 +20,14 @@ header img {
 
 div {
     display: block;
-    background-color: lightgray;
+    
+    border-radius: 5px;
+}
+
+div:hover {
+    box-shadow: 3px 3px 8px black;
+    background-color: white;
+    transition-duration: .5s;
 }
 
 section {
@@ -39,6 +46,10 @@ section {
     text-align: right;
 }
 
+#objetivos {
+    margin: 5px 15px 10px 25px;
+}
+
 .content {
     padding: 5px 10px;
 }
@@ -53,6 +64,24 @@ section {
     padding: 10px;
 }
 
+.ano {
+    font-size: 12px;
+    margin: 0px;
+    color: rgb(68, 68, 68);
+}
+
+.local {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.atividades {
+    font-size: 12px;
+    margin: 0px;
+    color: rgb(68, 68, 68);
+}
+
 /* estilos dos textos gerais */
 
 h1 {
@@ -64,17 +93,19 @@ h1 {
 header p {
     max-width: 340px;
     margin: 10px 15px 10px auto;
-    font-size: 14px;
+    font-size: 16px;
     text-align: right;
 }
 
 h2 {
     margin: 5px auto 5px 25px;
+    font-size: 20px;
 }
 
 p {
     margin: 10px 10px 10px 25px;
     text-align: justify;
+    font-size: 16px;
 }
 
 ul {
@@ -85,6 +116,7 @@ li {
     margin: 10px;
     padding: 0px;
     text-align: justify;
+    font-size: 16px;
 }
 
 div > a {
